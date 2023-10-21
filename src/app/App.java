@@ -8,6 +8,7 @@ import model.ClientMdl;
 
 public class App {
     public static void main(String[] args) throws SQLException, Exception {
+
         try (Scanner scanner = new Scanner(System.in)) {
             ClientCtl clientCtl = new ClientCtl();
             ClientMdl clientMdl = new ClientMdl();
